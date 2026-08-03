@@ -1,2 +1,3 @@
 # Personal-News-Feed-Recommender
 A hybrid personalized news feed recommender that balances relevance with discovery. Combines BERTopic-based unsupervised topic clustering (no predefined categories needed), ALS collaborative filtering for both item-based and user-based recommendations, and FP-Growth association rule mining tuned for low-support/high-lift "bridge" rules to surface unexpected cross-topic connections and reduce echo chambers. Includes freshness decay, MMR diversity re-ranking, and evaluation against standard ranking metrics (AUC, MRR, nDCG) plus diversity metrics (ILD, coverage, novelty). Prototyped and validated on the MIND-small dataset before porting to a production news feed with tweet-length content
+Now i have to hook this up on my Hub News section
